@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;        
+}
+.hide{
+    display: none;
+}
+.car{
+    align-content: center;
+    width: 50px;
+    height: 110px;
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(Images/car1.jpg);
+    background-size: cover;
+}
+.GameArea{
+    width: 500px;
+    height: 1200px;
+    background-color: rgb(29, 26, 26);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-left: 10px dashed red;
+    border-right:10px dashed red;
+    -ms-transform: rotate(57deg); /* IE 9 */
+    -webkit-transform: rotate(57deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    background: blue;
+    position: absolute;
+    margin-left: 195px;
+}
+.CarGame{
+    background-image: url(Images/montains.jpg);
+    background-size: cover;
+
+}
+.other{
+    align-content: center;
+    width: 50px;
+    height: 110px;
+    background-color: red;
+    position: absolute;
+    bottom: 120px;
+    background-image: url(Images/car5.jpg);
+    background-size: cover;
+}
+/* 
+.other{
+    width: 40px;
+    height: 70px;
+    background-image: url(images/car5.jpg);
+    position: absolute;
+    bottom: 120px;
+} */
+
+.StartScreen{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    z-index: 1;
+    margin-top: 210px;
+    margin-left:360px;
+    text-align: center;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    font-size: 30px;
+    width: 50%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 23px;
+
+}
+button{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
